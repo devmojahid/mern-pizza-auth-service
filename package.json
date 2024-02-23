@@ -1,0 +1,15 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "description": "This Is Our Project User Managment Service For Mern Project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/server.js"
+  },
+  "keywords": [
+    "mern",
+    "user"
+  ],
+  "author": "mojahid12 <raofahmedmojahid@gmail.com>",
+  "license": "ISC"
+}
