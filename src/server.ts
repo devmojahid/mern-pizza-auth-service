@@ -1,1 +1,4 @@
-console.log('Server is running');
+function login(username: string) {
+  return true;
+}
+login("mojahid");

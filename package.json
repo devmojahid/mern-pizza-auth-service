@@ -4,7 +4,9 @@
   "description": "This Is Our Project User Managment Service For Mern Project",
   "main": "index.js",
   "scripts": {
-    "dev": "node src/server.js"
+    "dev": "node src/server.js",
+    "format:check": "prettier . --check",
+    "format:fix": "prettier . --write"
   },
   "keywords": [
     "mern",
@@ -14,6 +16,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.11.20",
+    "prettier": "3.2.5",
     "typescript": "^5.3.3"
   }
 }
