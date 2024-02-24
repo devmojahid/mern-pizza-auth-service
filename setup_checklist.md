@@ -8,7 +8,7 @@ Checklist For Express Project Setup
 -   [+] Eslint setup
 -   [+] Git hooks setup (husky) with (lint-staged)
 -   [+] Application config
--   [ ] Expressjs app setup
+-   [+] Expressjs app setup
 -   [ ] Logger setup
 -   [ ] Error handaling setup
 -   [ ] Test setup
