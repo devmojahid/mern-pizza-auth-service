@@ -1,37 +1,40 @@
 {
-  "name": "auth-service",
-  "version": "1.0.0",
-  "description": "This Is Our Project User Managment Service For Mern Project",
-  "main": "index.js",
-  "scripts": {
-    "dev": "node src/server.js",
-    "format:check": "prettier . --check",
-    "format:fix": "prettier . --write",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "prepare": "husky"
-  },
-  "keywords": [
-    "mern",
-    "user"
-  ],
-  "author": "mojahid12 <raofahmedmojahid@gmail.com>",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^20.11.20",
-    "eslint": "^8.56.0",
-    "eslint-config-prettier": "^9.1.0",
-    "husky": "^9.0.11",
-    "lint-staged": "^15.2.2",
-    "prettier": "3.2.5",
-    "typescript": "^5.3.3",
-    "typescript-eslint": "^7.0.2"
-  },
-  "lint-staged": {
-    "*.ts": [
-      "npm run lint:fix",
-      "npm run lint",
-      "npm run format:fix"
-    ]
-  }
+    "name": "auth-service",
+    "version": "1.0.0",
+    "description": "This Is Our Project User Managment Service For Mern Project",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node src/server.js",
+        "format:check": "prettier . --check",
+        "format:fix": "prettier . --write",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "prepare": "husky"
+    },
+    "keywords": [
+        "mern",
+        "user"
+    ],
+    "author": "mojahid12 <raofahmedmojahid@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^20.11.20",
+        "eslint": "^8.56.0",
+        "eslint-config-prettier": "^9.1.0",
+        "husky": "^9.0.11",
+        "lint-staged": "^15.2.2",
+        "prettier": "3.2.5",
+        "typescript": "^5.3.3",
+        "typescript-eslint": "^7.0.2"
+    },
+    "lint-staged": {
+        "*.ts": [
+            "npm run lint:fix",
+            "npm run lint",
+            "npm run format:fix"
+        ]
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5"
+    }
 }
