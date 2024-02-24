@@ -1,13 +1,10 @@
 import express, { NextFunction, Request, Response } from "express";
 import logger from "./config/logger";
 import { HttpError } from "http-errors";
-import createError from "http-errors";
 
 const app = express();
 
 app.get("/", (req, res) => {
-    const err = createError(404, "This video does not exist!");
-    throw err;
     res.send("Auth System Hear");
 });
 
