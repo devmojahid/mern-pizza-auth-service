@@ -11,5 +11,5 @@ Checklist For Express Project Setup
 -   [+] Expressjs app setup
 -   [+] Logger setup
 -   [+] Error handaling setup
--   [ ] Test setup
--   [ ] Template setup
+-   [+] Test setup
+-   [+] Template setup
