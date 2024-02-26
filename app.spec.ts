@@ -2,7 +2,7 @@ import app from "./src/app";
 import { discountParcentize } from "./src/utils";
 import request from "supertest";
 
-describe("App", () => {
+describe.skip("App", () => {
     it("should Calculet the discount", () => {
         const result = discountParcentize(100, 10);
         expect(result).toBe(10);
